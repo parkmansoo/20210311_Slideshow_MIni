@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+   <h1 onclick="moveLeft()">애니메이션 과정 보기(click)</h1>
+
+   <script>
+        function moveLeft(){
+            document.getElementById("innerFrame").style.marginLeft = "-200px";
+        }
+    </script>
+
+    <div id="outer">
+
+        <div id="innerFrame">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <!-- 슬라이드 이미지들 -->
+
+        </div>    <!-- innerFrame, 이동 틀 -->
+
+
+
+
+
+    </div>    <!-- #outer, 외부영역 = 출력 공간 -->
+</body>
+</html>
